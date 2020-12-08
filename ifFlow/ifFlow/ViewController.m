@@ -33,9 +33,15 @@
         self.label2.text = @"Fin bil";
     } else if([model isEqualToString:@"V90"]){
         self.label2.text = @"Jättefin bil";
+    } else if ([model isEqualToString:@"V40"]){
+        
     } else {
         self.label2.text = @"Inte så fin bil";
     }
+}
+
+- (void)demo{
+    
 }
 
 
