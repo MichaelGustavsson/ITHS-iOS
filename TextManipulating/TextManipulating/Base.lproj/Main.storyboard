@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="254" translatesAutoresizingMaskIntoConstraints="NO" id="UFz-vf-MTs">
+                                <rect key="frame" x="30" y="224.5" width="354" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKW-bI-y8V">
+                                        <rect key="frame" x="0.0" y="0.0" width="42" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="42" id="xX9-1F-HJC"/>
+                                        </constraints>
+                                        <state key="normal" title="Set color"/>
+                                        <connections>
+                                            <action selector="myButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L1c-n2-bcB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBU-Aa-Oc1">
+                                        <rect key="frame" x="296" y="0.0" width="58" height="30"/>
+                                        <state key="normal" title="Set Font"/>
+                                        <connections>
+                                            <action selector="fontButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJD-Ps-YhC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="140" translatesAutoresizingMaskIntoConstraints="NO" id="RbY-EB-ZI9">
+                                <rect key="frame" x="30" y="264.5" width="354" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbs-pI-wPW">
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="30"/>
+                                        <state key="normal" title="Set background color"/>
+                                        <connections>
+                                            <action selector="backgroundButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jnU-2s-Ysi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGh-Tm-HV4">
+                                        <rect key="frame" x="267" y="0.0" width="87" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="87" id="GQz-Zg-jXu"/>
+                                        </constraints>
+                                        <state key="normal" title="Dropshadow"/>
+                                        <connections>
+                                            <action selector="shadowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eb0-f2-luS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsR-11-nLu">
+                                <rect key="frame" x="107" y="74" width="200" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="qXb-i6-H0S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RbY-EB-ZI9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="7bp-72-AUo"/>
+                            <constraint firstItem="VsR-11-nLu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="FDI-8u-Gzh"/>
+                            <constraint firstItem="VsR-11-nLu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PvL-0A-bnx"/>
+                            <constraint firstItem="RbY-EB-ZI9" firstAttribute="top" secondItem="UFz-vf-MTs" secondAttribute="bottom" constant="10" id="Y2k-fe-fcS"/>
+                            <constraint firstItem="UFz-vf-MTs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="224.5" id="cLz-tz-kBb"/>
+                            <constraint firstItem="RbY-EB-ZI9" firstAttribute="leading" secondItem="UFz-vf-MTs" secondAttribute="leading" id="ehf-Fc-xKR"/>
+                            <constraint firstItem="RbY-EB-ZI9" firstAttribute="centerX" secondItem="VsR-11-nLu" secondAttribute="centerX" id="mha-pv-g7n"/>
+                            <constraint firstItem="RbY-EB-ZI9" firstAttribute="trailing" secondItem="UFz-vf-MTs" secondAttribute="trailing" id="njf-71-upm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="VsR-11-nLu" id="rOC-EC-WNH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -9,8 +9,15 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *makeLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *infoLabel;
+@property (weak, nonatomic) IBOutlet UITextField *regNoInput;
 @property (weak, nonatomic) IBOutlet UITextField *makeInput;
+@property (weak, nonatomic) IBOutlet UITextField *modelInput;
+@property (weak, nonatomic) IBOutlet UITextField *mileageInput;
+@property (weak, nonatomic) IBOutlet UITextField *emailInput;
+
+
 - (IBAction)addMakeButton:(id)sender;
 
 @end
