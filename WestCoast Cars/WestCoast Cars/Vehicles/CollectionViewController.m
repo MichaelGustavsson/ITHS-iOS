@@ -20,7 +20,7 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    vehicles = @[@"car1",@"car2",@"car3",@"car4",@"car5",@"car6"];
+    vehicles = @[@"car1",@"car2",@"car3",@"car4",@"car5",@"car6"];    
 }
 
 
