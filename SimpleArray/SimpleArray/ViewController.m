@@ -21,12 +21,10 @@
     
     self.label1.text = vehicles[5];
     
-//    NSArray *values = @[@1,@2,@3,@4,@5,@6];
-//
-//    self.label1.text = [NSString stringWithFormat:@"%@", values[0]];
+    for(NSString *car in vehicles){
+        NSLog(@"Car: %@", car);
+    }
     
-    //NSLog(@"My value: %@", values[4]);
-    //NSLog (@"The 4th integer is: %d", myIntegers[3]);
 }
 
 
