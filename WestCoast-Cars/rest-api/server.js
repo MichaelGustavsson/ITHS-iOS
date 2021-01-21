@@ -23,7 +23,7 @@ const vehicles = [
     make: "Volvo",
     model: "V40",
     modelYear: "2015",
-    imageUrl: "https://i.postimg.cc/Gtqffzwy/car.jpg",
+    imageUrl: "https://i.postimg.cc/3w5tNW5d/Volvo-V40.jpg",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const vehicles = [
     make: "Volvo",
     model: "V60",
     modelYear: "2017",
-    imageUrl: "https://i.postimg.cc/Gtqffzwy/car.jpg",
+    imageUrl: "https://i.postimg.cc/ZRjHwc9d/Volvo-V60.jpg",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const vehicles = [
     make: "Volvo",
     model: "V90",
     modelYear: "2018",
-    imageUrl: "https://i.postimg.cc/Gtqffzwy/car.jpg",
+    imageUrl: "https://i.postimg.cc/8CRt6DNw/Volvo-V90.jpg",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const vehicles = [
     make: "Volvo",
     model: "X40",
     modelYear: "2019",
-    imageUrl: "https://i.postimg.cc/Gtqffzwy/car.jpg",
+    imageUrl: "https://i.postimg.cc/X7BK53gF/Volvo-X40.jpg",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const vehicles = [
     make: "Volkswagen",
     model: "Tiguan",
     modelYear: "2012",
-    imageUrl: "https://i.postimg.cc/Gtqffzwy/car.jpg",
+    imageUrl: "https://i.postimg.cc/jSJ8RP1p/Volkswagen-Tiguan.jpg",
   },
   {
     id: 6,
@@ -63,8 +63,8 @@ const vehicles = [
     make: "Audi",
     model: "A6",
     modelYear: "2013",
-    imageUrl: "https://i.postimg.cc/Gtqffzwy/car.jpg"
-  },
+    imageUrl: "https://i.postimg.cc/d1JnRX0F/Audi-A6.jpg",
+  }
 ];
 
 app.get('/vehicles', (req, res) => {
