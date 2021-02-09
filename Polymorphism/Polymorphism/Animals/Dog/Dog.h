@@ -9,5 +9,6 @@
 #import "Animal.h"
 
 @interface Dog : Animal
+@property (weak, nonatomic) NSString *favouriteToy;
 
 @end
